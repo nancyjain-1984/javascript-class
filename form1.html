@@ -2,13 +2,19 @@
 <html lang="en">
 <head>
     <title>Employee Submission Form</title>
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
+    <div class="header">
+        <h2 class="heading">My Registeration Form</h2>
+        <h3>I'm <span class="name">Simone Olivia</span>, a Web Developer</h3>
+    </div>
 
-    
+    <div class="my-form">
     <form>
         <label>Employee First Name:</label>
-        <input type="text" placeholder="Enter your first name"   />
+        <input value="Nancy Jain" type="text" placeholder="Enter your first name"   />
         <br>
         <br>
         <label>Employee Last Name:</label>
@@ -16,15 +22,30 @@
         <br>
         <br>
         
+        <div>
         <label>Employee Gender:</label>
         <br>
         <br>
-        <input type="radio" id="Male" name="Male">
+        <input type="radio" id="Male" name="gender">
         <label for="Male">Male</label><br>
         <br>
         <br>
-        <input type="radio" id="Female" name="Female">
+        <input type="radio" id="Female" name="gender">
         <label for="Female">Female</label>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label>Employee Natinality:</label>
+            <br>
+            <br>
+            <input type="radio" id="genders" name="nationality">
+            <label for="Male">Others</label><br>
+            <br>
+            <br>
+            <input type="radio" id="genders" name="nationality">
+            <label for="Female">Indian</label>
+        </div>
         <br>
         <br>
         <label>Employee Age:</label>
@@ -55,10 +76,11 @@
         <br>
         <br>
         
-                
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+        <div id="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
     </form>
-    
+    </div>
 </body>
 </html>
