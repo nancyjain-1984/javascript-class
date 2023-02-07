@@ -3,6 +3,7 @@
     width: 25%;
     border: 12px solid green;
     padding: 10px;
+    background-color: burlywood;
 }
 .header {
     margin: auto;
@@ -14,4 +15,11 @@
 }
 input,textarea {
     color: brown;
+    border-color: crimson;
+}
+input[type=button],[type="submit"]{
+    background color: green;
+}
+input[type=button],[type="Reset"]{
+    background color: green;
 }
