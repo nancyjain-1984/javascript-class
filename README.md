@@ -6,7 +6,7 @@
 - You can Download the Bootstrap files and Link it to your HTML File
 
 # For Linking CDN
-- CSS (<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" crossorigin="anonymous">)
+- CSS ("link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" crossorigin="anonymous">")
 - JS(<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>)
 
 # For Linking Offline Files
